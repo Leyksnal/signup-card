@@ -38,13 +38,10 @@ border: 1px solid;
 margin: 0 5px;
 border-radius: 5px;
 padding: 6px 20px;
-/* background-color: ${({bg})  => ( bg ? "#fff" : "#005EFF")};
-color: ${({bg})  => ( bg ? "#000" : "#fff")};
-background-color: ${({bg})  => ( bg ? "#transparent" : "gray")}; */
+
 transition: all 350ms;
 
 :hover{
-    border-color: ${({bg})  => ( bg1 ? "#transparent" : "#005EFF")};
     transform: scale(1);
 }
 `;
